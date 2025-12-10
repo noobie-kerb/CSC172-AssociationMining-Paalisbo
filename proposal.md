@@ -32,10 +32,16 @@ social policy and crime prevention within local communities.
 
 ## 5. Technical Approach
 - Architecture sketch
-- 
-- Model: [Apriori]
-- Framework: [Python(Pandas, and others)]
-- Hardware: [Google Colab]
+  - Data cleaning & missing value handling
+  - Discretization of continuous variables
+  - Transaction encoding
+  - ARM algorithm (Apriori)
+  - Rule evaluation and visualization
+ 
+- Technique / Tools
+ - Model: [Apriori]
+ - Framework: [Python(Pandas, and others)]
+ - Hardware: [Google Colab]
 
 ## 6. Expected Challenges & Mitigations
 - Challenge: Dataset contains mostly continuous values
@@ -46,3 +52,4 @@ social policy and crime prevention within local communities.
   
 - Challenge: Sparse or redundant rules
 - Solution: Use metrics like lift and conviction to filter for meaningful rules.
+
