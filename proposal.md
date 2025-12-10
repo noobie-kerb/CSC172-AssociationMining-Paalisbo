@@ -1,5 +1,5 @@
 # CSC172 Association Rule Mining Proposal
-**Student:** [Kervin Lemuel Paalisbo], [2020-0076]  
+**Student:** [Kervin Lemuel Paalisbo], [2022-0076]  
 **Date:** [December 12, 2025]
 
 ## 1. Project Title 
@@ -52,5 +52,6 @@ social policy and crime prevention within local communities.
   
 - Challenge: Sparse or redundant rules
 - Solution: Use metrics like lift and conviction to filter for meaningful rules.
+
 
 
