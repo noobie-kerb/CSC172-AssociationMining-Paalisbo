@@ -39,9 +39,9 @@ social policy and crime prevention within local communities.
   - Rule evaluation and visualization
  
 - Technique / Tools
- - Model: [Apriori]
- - Framework: [Python(Pandas, and others)]
- - Hardware: [Google Colab]
+  - Model: [Apriori]
+  - Framework: [Python(Pandas, and others)]
+  - Hardware: [Google Colab]
 
 ## 6. Expected Challenges & Mitigations
 - Challenge: Dataset contains mostly continuous values
@@ -52,4 +52,5 @@ social policy and crime prevention within local communities.
   
 - Challenge: Sparse or redundant rules
 - Solution: Use metrics like lift and conviction to filter for meaningful rules.
+
 
