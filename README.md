@@ -250,8 +250,8 @@ Row 1: [Crime=0.20, Poverty=0.12, Education=0.45, ...]
 - Positive mean confirms rules outperform random chance
 
 **Visualization 7: Metrics Scatter Matrix**
-![Scatter Matrix](results/metrics_relationship1.png)
-![Scatter Matrix cont.](results/metrics_relationship1.png)
+![Scatter Matrix](results/metric_relationship1.png)
+![Scatter Matrix cont.](results/metric_relationship2.png)
 - 4 scatter plots showing relationships between metrics
 - Confidence vs Lift shows positive correlation (accurate rules are also strong)
 
