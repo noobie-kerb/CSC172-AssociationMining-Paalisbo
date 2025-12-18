@@ -217,29 +217,31 @@ Row 1: [Crime=0.20, Poverty=0.12, Education=0.45, ...]
 ### 4.2 Key Visualizations
 
 **Visualization 1: Item Frequency Distribution**
-![Item Frequency](results/item_frequency.png)
+![Item Frequency](results/bar_chart.png)
 - Bar chart showing occurrence frequency of all 21 categorical items
 - Highlights balanced distribution across crime levels and socioeconomic factors
 
 **Visualization 2: Transaction Size Analysis**
 ![Transaction Size](results/transaction_size.png)
-- Histogram and box plot showing consistent 7-item transactions
-- Confirms complete data availability for all communities
+- Histogram and box plot showing consistent 7-item transactions(messed up my table, its only supposed to be 5-item but results stay the same)
+- Confirms complete data availability for all communities 
 
 **Visualization 3: Co-occurrence Heatmap**
-![Co-occurrence Heatmap](results/cooccurrence_heatmap.png)
+![Co-occurrence Heatmap](results/heatmap2.png)
+![Co-occurrence Heatmap cont.](results/heatmap1.png)
 - Matrix showing pairwise co-occurrence percentages
-- Reveals strong clustering: High_Poverty + Low_Education = 52.1% co-occurrence
+- Reveals strong clustering: Low_Education + Low_Unemployment = 58% co-occurrence
 
 **Visualization 4: Support vs Confidence Scatter**
-![Support vs Confidence](results/support_confidence_scatter.png)
+![Support vs Confidence](results/scatterplot.png)
 - Each dot represents one association rule
-- Colored by lift (brighter = stronger association)
+- Colored and sized by lift (brighter  & bigger = stronger association)
 - Top-right quadrant contains most reliable and common rules
 
 **Visualization 5: Metrics Comparison (4-Panel)**
-![Metrics Comparison](results/metrics_comparison.png)
-- Compares top 10 rules across support, confidence, lift, and conviction
+![Metrics Comparison](results/metric_comparison1.png)
+![Metrics Comparison](results/metric_comparison2.png)
+- Compares rules across support, confidence, lift, and conviction
 - Shows trade-offs: high-lift rules may have lower support
 
 **Visualization 6: Leverage Distribution**
@@ -248,7 +250,8 @@ Row 1: [Crime=0.20, Poverty=0.12, Education=0.45, ...]
 - Positive mean confirms rules outperform random chance
 
 **Visualization 7: Metrics Scatter Matrix**
-![Scatter Matrix](results/metrics_scatter_matrix.png)
+![Scatter Matrix](results/metrics_relationship1.png)
+![Scatter Matrix cont.](results/metrics_relationship1.png)
 - 4 scatter plots showing relationships between metrics
 - Confidence vs Lift shows positive correlation (accurate rules are also strong)
 
