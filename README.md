@@ -251,7 +251,11 @@ Row 1: [Crime=0.20, Poverty=0.12, Education=0.45, ...]
 
 **Visualization 7: Metrics Scatter Matrix**
 ![Scatter Matrix](results/metric_relationship1.png)
+<<<<<<< HEAD
 ![Scatter Matrix cont.](results/metric_relationship2.png)
+=======
+![Scatter Matrix cont.](results/metric_relationship1.png)
+>>>>>>> bb2ca8e707866398da36f4e2d7d672504a9d94ca
 - 4 scatter plots showing relationships between metrics
 - Confidence vs Lift shows positive correlation (accurate rules are also strong)
 
